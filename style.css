@@ -11,6 +11,8 @@
     font-weight: 600!important;
 }
 
+
+/* banner style */
 .left-div{
     width:55%;
     flex-direction: column;
@@ -52,4 +54,39 @@
 .hero{
     width:500px;
     height:500px;
+}
+
+/* about style */
+.about{
+    padding-top: 100px;
+    background-color: #D9D9D9;
+}
+
+.tabs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.tab-links .tab-link {
+    cursor: pointer;
+    padding: 10px;
+    display: inline-block;
+}
+
+.tab-content{
+    width:100%;
+    background-color: #fff;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.tab-content .tab-pane {
+    display: none;
+    padding: 10px;
+}
+
+.tab-content .tab-pane.active {
+    display: block;
 }
