@@ -1,0 +1,12 @@
+.navbar-collapse{
+    flex-grow: 0!important;
+}
+
+.navbar-brand{
+    font-size: 32px!important;
+    font-weight: bold!important;
+}
+.nav-link{
+    font-size: 28px!important;
+    font-weight: 600!important;
+}
