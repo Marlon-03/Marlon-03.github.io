@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .navbar-collapse{
     flex-grow: 0!important;
 }
@@ -34,6 +38,16 @@
     font-weight: bold;
 }
 
+.cursor {
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {opacity: 1;}
+    25%, 75% {opacity: 0.5;}
+    50% {opacity: 0;}
+}
+
 .logos{
     margin-top: 20px;
 }
@@ -51,14 +65,16 @@
     width:45%;
 }
 
-.hero{
-    width:500px;
-    height:500px;
+.hero {
+    width: 100%;
+    height: auto;
 }
 
 /* about style */
 .about{
     padding-top: 100px;
+
+
     background-color: #D9D9D9;
 }
 
@@ -73,6 +89,15 @@
     cursor: pointer;
     padding: 10px;
     display: inline-block;
+    border:none;
+    background-color: #d9d9d9;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.tab-link.active {
+    border-bottom: 2px solid #18D26E;
+    padding-bottom: 5px;
 }
 
 .tab-content{
@@ -89,4 +114,20 @@
 
 .tab-content .tab-pane.active {
     display: block;
+    display: flex;
+    justify-content: space-between;
+    margin:10px 10px;
+}
+
+.tab-content .tab-pane .left-tab-pane{
+    width:35%;
+}
+
+.tab-content .tab-pane .left-tab-pane .about-image{
+    width: 100%;
+    height: auto;
+}
+
+.tab-content .tab-pane .right-tab-pane{
+    width:55%;
 }

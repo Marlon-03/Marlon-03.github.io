@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary container-fluid">
         <div class="container d-flex justify-content-between">
           <a class="navbar-brand" href="#">LOGO</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@
       <section  class="banner d-flex container">
         <div class="left-div d-flex justify-content-center">
             <h1>Hi, I'm Marlon</h1>
-            <h2>Developer</h2>
+            <h2 id="any">Developer</h2>
             <div class="logos">
                 <img class="logo-button" src="./img/github.svg" alt="Github logo">
                 <img class="logo-button" src="./img/linked.png" alt="LinkedIn Logo">
@@ -60,12 +60,19 @@
       <section class="about">
         <div class="container tabs">
             <div class="tab-links">
-                <button class="tab-link" onclick="changeTab(0)">Tab 1</button>
-                <button class="tab-link" onclick="changeTab(1)">Tab 2</button>
-                <button class="tab-link" onclick="changeTab(2)">Tab 3</button>
+                <button class="tab-link" onclick="changeTab(0)">My Story</button>
+                <button class="tab-link" onclick="changeTab(1)">Experience</button>
+                <button class="tab-link" onclick="changeTab(2)">Education</button>
             </div>
-            <div class="tab-content">
-                <div class="tab-pane">Content for Tab 1</div>
+            <div class="tab-content d-flex">
+                <div class="tab-pane">
+                    <div class="left-tab-pane">
+                        <img class="about-image" src="./img/baseball.webp" alt="">
+                    </div>
+                    <div class="right-tab-pane">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis natus doloribus cumque optio nihil perspiciatis quod in obcaecati illo possimus quibusdam ratione officia velit, dolores amet quae, et aut pariatur! Odit, debitis. Impedit placeat exercitationem dolore dolor ullam, explicabo qui iure perferendis facere rerum quod, quia excepturi tenetur in assumenda.</p>
+                    </div>
+                </div>
                 <div class="tab-pane">Content for Tab 2</div>
                 <div class="tab-pane">Content for Tab 3</div>
             </div>
