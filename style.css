@@ -72,9 +72,7 @@
 
 /* about style */
 .about{
-    padding-top: 100px;
-
-
+    padding: 50px 0px;
     background-color: #D9D9D9;
 }
 
@@ -130,4 +128,38 @@
 
 .tab-content .tab-pane .right-tab-pane{
     width:55%;
+}
+
+
+/* skills */
+.skills{
+    padding: 50px 0px;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card-skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Add this line */
+    gap: 20px; /* Adjust this value as needed */
+    width: 100%;
+}
+
+.card-skill{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    background-color: black;
+    
+}
+
+.skill-img{
+    width: 128px;
+    height: auto;
 }
