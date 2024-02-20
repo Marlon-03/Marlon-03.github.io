@@ -105,32 +105,49 @@ h2 {
 
 
 /* skills */
-
-.card-skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* Add this line */
-    gap: 20px;
-    /* Adjust this value as needed */
-    width: 100%;
-}
-
-.card-skill {
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 0;
-    background-color: black;
-}
-
 .skill-img {
     width: 128px;
     height: auto;
 }
 
-.shadow-orange {
+.shadow-html {
     box-shadow: 0 0 10px #E34C26;
 }
+
+.shadow-css {
+    box-shadow: 0 0 10px #1572B6;
+}
+
+.shadow-js {
+    box-shadow: 0 0 10px #F7DF1E;
+}
+
+.shadow-php{
+    box-shadow: 0 0 10px #777BB4;
+}
+
+.shadow-wp {
+    box-shadow: 0 0 10px #21759B;
+}
+.shadow-react {
+    box-shadow: 0 0 10px #61DAFB;
+}
+
+.shadow-laravel {
+    box-shadow: 0 0 10px #FF2D20;
+}
+
+.shadow-vue{
+    box-shadow: 0 0 10px #4FC08D;
+
+}
+
+
+.hover-scale {
+    transition: transform 0.5s;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
