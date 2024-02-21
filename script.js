@@ -24,9 +24,9 @@ function typeWriter() {
     }
 
     if (!isPaused) {
-        txt = isDeleting 
-            ? text[index].substring(0, txt.length - 1) 
-            : text[index].substring(0, txt.length + 1);
+        txt = isDeleting ?
+            text[index].substring(0, txt.length - 1) :
+            text[index].substring(0, txt.length + 1);
     }
 
     element.innerHTML = txt || '&nbsp;'; // Add non-breaking space when text is empty
@@ -56,8 +56,8 @@ changeTab(0);
 
 
 // trial
-const checkbox = document.getElementById('checkbox');
-checkbox.addEventListener('change', () => {
-    // Change the theme of the website
-    document.body.classList.toggle('dark-theme');
-});
+// const checkbox = document.getElementById('checkbox');
+// checkbox.addEventListener('change', () => {
+//     // Change the theme of the website
+//     document.body.classList.toggle('dark-theme');
+// });

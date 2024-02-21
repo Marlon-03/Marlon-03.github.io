@@ -1,5 +1,10 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+}
+
+.row>* {
+    padding: 0px!important;
 }
 
 .navbar-collapse {
@@ -25,12 +30,14 @@
     margin: 0 10px;
 }
 
-.h1,h1 {
+.h1,
+h1 {
     font-size: 85px!important;
     font-weight: bold;
 }
 
-.h2,h2 {
+.h2,
+h2 {
     font-size: 60px!important;
     font-weight: bold;
 }
@@ -62,12 +69,13 @@
     font-weight: bold;
     margin-top: 20px;
     border-radius: 50px;
-    padding: 10px 15px!important;
+    padding: 10px 15px;
 }
 
 .hero {
     width: 100%;
     height: auto;
+    box-sizing: border-box;
 }
 
 
@@ -103,6 +111,7 @@
 
 
 /* skills */
+
 .skill-img {
     width: 128px;
     height: auto;
@@ -120,13 +129,14 @@
     box-shadow: 0 0 10px #F0DB4F;
 }
 
-.shadow-php{
+.shadow-php {
     box-shadow: 0 0 10px #777BB4;
 }
 
 .shadow-wp {
     box-shadow: 0 0 10px #21759B;
 }
+
 .shadow-react {
     box-shadow: 0 0 10px #61DAFB;
 }
@@ -135,11 +145,9 @@
     box-shadow: 0 0 10px #FF2D20;
 }
 
-.shadow-vue{
+.shadow-vue {
     box-shadow: 0 0 10px #4FC08D;
-
 }
-
 
 .hover-scale {
     transition: transform 0.5s;
@@ -150,8 +158,9 @@
 }
 
 
-
 /* light/dark toggle switch */
+
+
 /* body {
     transition: background-color 0.5s ease;
 } */
@@ -160,6 +169,7 @@ body.dark-theme {
     background-color: #1a1919;
     color: #fff;
 }
+
 .theme-switch {
     position: relative;
     display: inline-block;
@@ -195,11 +205,11 @@ body.dark-theme {
     transition: .4s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
     background-color: #2196F3;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
     transform: translateX(26px);
 }
 
@@ -213,14 +223,16 @@ input:checked + .slider:before {
 
 
 /* flip-box */
-.flip-box {
-    perspective: 1000px;
+
+.service-img {
+    width: 128px;
+    height: auto;
 }
 
 .flip-inner {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 200px;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -235,6 +247,8 @@ input:checked + .slider:before {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 #flip-front {
@@ -244,6 +258,6 @@ input:checked + .slider:before {
 
 #flip-back {
     background-color: #555;
-    color: white;
+    color: #fff;
     transform: rotateY(180deg);
 }
