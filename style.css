@@ -152,9 +152,9 @@
 
 
 /* light/dark toggle switch */
-body {
+/* body {
     transition: background-color 0.5s ease;
-}
+} */
 
 body.dark-theme {
     background-color: #1a1919;
