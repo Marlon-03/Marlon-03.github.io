@@ -1,3 +1,4 @@
+
 var element = document.getElementById('any');
 var text = ['Developer', 'Designer'];
 var index = 0;
@@ -54,10 +55,3 @@ function changeTab(index) {
 changeTab(0);
 
 
-
-// trial
-// const checkbox = document.getElementById('checkbox');
-// checkbox.addEventListener('change', () => {
-//     // Change the theme of the website
-//     document.body.classList.toggle('dark-theme');
-// });
