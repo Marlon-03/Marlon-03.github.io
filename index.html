@@ -31,10 +31,10 @@
                         <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Work</a>
+                        <a class="nav-link" href="#works">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -55,13 +55,13 @@
                 <h1>Hi, I'm Marlon</h1>
                 <h2 id="any">Developer</h2>
                 <div class="logos">
-                    <img class="logo-button" src="./img/github.svg" alt="Github logo">
-                    <img class="logo-button" src="./img/linked.png" alt="LinkedIn Logo">
-                    <img class="logo-button" src="./img/insta.png" alt="Instagram Logo">
-                    <img class="logo-button" src="./img/fb.png" alt="Fcebook Logo">
+                    <a href="#"><img class="logo-button" src="./img/github.svg" alt="Github logo"></a>
+                    <a href="#"><img class="logo-button" src="./img/linked.png" alt="LinkedIn Logo"></a>
+                    <a href="#"><img class="logo-button" src="./img/insta.png" alt="Instagram Logo"></a>
+                    <a href="#"><img class="logo-button" src="./img/fb.png" alt="Fcebook Logo"></a>
                 </div>
                 <div class="d-flex col-md-12 justify-content-center">
-                    <button type="button" class="btn btn-md btn-light">Download CV</button>
+                    <a href="./img/baseball.webp" class="btn btn-md btn-light" download>Download CV</a>
                 </div>
             </div>
 
@@ -219,8 +219,8 @@
         </div>
     </section>
 
-    <section class="d-flex justify-content-center">
-        <div class="works row gap-5 container px-0 d-flex align-items-center py-5 flex-column bg-light">
+    <section id="works" class="d-flex justify-content-center">
+        <div class="row gap-5 container px-0 d-flex align-items-center py-5 flex-column bg-light">
             <div class="col-md-12 d-flex justify-content-center ">
                 <h2>MY WORKS</h2>
             </div>
@@ -263,6 +263,40 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="contact" class="d-flex justify-content-center">
+        <div class=" row gap-5 container px-0 d-flex justify-content-center align-items-center py-5 flex-column bg-light">
+            <div class="col-md-12 d-flex justify-content-center ">
+                <h2>CONTACT ME</h2>
+            </div>
+
+            <div class="d-flex justify-content-evenly gap-3">
+                <div class="col-md-5">
+                    <input type="text" class="form-control mb-2" placeholder="Your Name">
+                    <input type="email" class="form-control mb-2" placeholder="Your Email">
+                    <input type="text" class="form-control mb-2" placeholder="Subject">
+                    <textarea class="form-control  mb-5" rows="3">Message</textarea>
+
+
+                </div>
+
+                <div class="col-md-5">
+                    <div>
+                        <p class="fw-bold fs-5">Need an experienced senior web developer to help out? Send me an email to discuss in more detail. Alternatively connect with me elsewhere on the web →</p>
+                    </div>
+                    <div class="logos">
+                        <a href="#" ><img class="logo-button" src="./img/github.svg" alt="Github logo"></a>
+                        <a href="#" ><img class="logo-button" src="./img/linked.png" alt="LinkedIn Logo"></a>
+                        <a href="#" ><img class="logo-button" src="./img/insta.png" alt="Instagram Logo"></a>
+                        <a href="#" ><img class="logo-button" src="./img/fb.png" alt="Fcebook Logo"></a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="d-flex justify-content-center">
+        <p class="fw-bold fs-5 mb-0 py-2">@copyright.2024</p>
     </section>
 
     <script src="script.js"></script>

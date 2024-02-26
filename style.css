@@ -20,7 +20,10 @@
     font-size: 28px!important;
     font-weight: 600!important;
 }
-
+/* #home, #about, #skills, #services {
+    height: 100vh;
+    overflow: auto;
+} */
 
 /* banner style */
 
