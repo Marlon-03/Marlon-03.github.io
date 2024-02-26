@@ -20,10 +20,9 @@
     font-size: 28px!important;
     font-weight: 600!important;
 }
-/* #home, #about, #skills, #services {
+#home, #about, #services, #work, #contact {
     height: 100vh;
-    overflow: auto;
-} */
+}
 
 /* banner style */
 
@@ -83,7 +82,6 @@ h2 {
 
 
 /* about style */
-
 .tab-link {
     cursor: pointer;
     padding: 10px;
@@ -114,6 +112,17 @@ h2 {
 
 
 /* skills */
+/* #skills {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+}
+
+#skills > .container {
+    flex-shrink: 0;
+    padding: 2rem 0; /* Reduce vertical padding */
 
 .skill-img {
     width: 128px;
@@ -226,7 +235,6 @@ input:checked+.slider:before {
 
 
 /* flip-box services */
-
 .service-img {
     width: 128px;
     height: auto;
@@ -266,13 +274,18 @@ input:checked+.slider:before {
 }
 
 /* work section */
-/* .work {
-    width: 500px;
-    height: 200px;
-} */
-
 .demo {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/*contact section */
+.form-control{
+    cursor: pointer;
+}
+
+.form-control:focus{
+    border-color: #18D26E!important;
+    box-shadow: 0 0 10px #18D26E!important;
 }
