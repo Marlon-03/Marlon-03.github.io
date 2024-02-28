@@ -227,3 +227,57 @@ h2 {
 .darkmode--activated .navbar.bg-body-tertiary .nav-link {
     color: #FFF !important;
 }
+
+@media (max-width: 768px) {
+    .h1,
+    h1 {
+        font-size: 60px!important;
+    }
+
+    .h2,
+    h2 {
+        font-size: 40px!important;
+    }
+
+    .navbar-brand {
+        font-size: 24px!important;
+    }
+
+    .nav-link {
+        font-size: 20px!important;
+    }
+
+    .hero {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .service-img {
+        width: 64px;
+        height: auto;
+    }
+
+    .skill-img {
+        width: 64px;
+        height: auto;
+    }
+
+    .logo-button {
+        width: 30px;
+        height: 30px;
+        margin: 0 5px;
+    }
+
+    .logos {
+        margin-top: 10px;
+    }
+
+    #home .btn.btn-light {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+        border-radius: 50px;
+        padding: 10px 15px;
+    }
+}
