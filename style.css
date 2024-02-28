@@ -20,7 +20,7 @@
     font-size: 28px!important;
     font-weight: 600!important;
 }
-#home, #about, #services, #work, #contact {
+#home, #about, #services, #skills, #work, #contact {
     height: 100vh;
 }
 
@@ -222,38 +222,4 @@ h2 {
 
 .darkmode--activated .navbar.bg-body-tertiary .nav-link {
     color: #FFF !important;
-}
-
-@media (prefers-color-scheme: dark) {
-    .shadow-html {
-        box-shadow: 0 0 10px #E34C26!important;
-    }
-
-    .shadow-css {
-        box-shadow: 0 0 10px #2965f1!important;
-    }
-
-    .shadow-js {
-        box-shadow: 0 0 10px #F0DB4F!important;
-    }
-
-    .shadow-php {
-        box-shadow: 0 0 10px #777BB4!important;
-    }
-
-    .shadow-wp {
-        box-shadow: 0 0 10px #21759B!important;
-    }
-
-    .shadow-react {
-        box-shadow: 0 0 10px #61DAFB!important;
-    }
-
-    .shadow-laravel {
-        box-shadow: 0 0 10px #FF2D20!important;
-    }
-
-    .shadow-vue {
-        box-shadow: 0 0 10px #4FC08D!important;
-    }
 }
