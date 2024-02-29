@@ -21,7 +21,7 @@
     font-weight: 600!important;
 }
 #home, #about, #services, #skills, #work, #contact {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /* banner style */
@@ -147,7 +147,10 @@ h2 {
 .shadow-vue {
     box-shadow: 0 0 10px #4FC08D;
 }
-
+.shadow-html, .shadow-css, .shadow-js, .shadow-php, .shadow-wp, .shadow-react, .shadow-laravel, .shadow-vue {
+    padding: 10px; /* adjust as needed */
+    margin: 10px;  /* adjust as needed */
+}
 .hover-scale {
     transition: transform 0.5s;
 }
@@ -196,11 +199,6 @@ h2 {
 }
 
 /* work section */
-.demo {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 .demo-modal {
     width: 100%;
@@ -254,7 +252,7 @@ h2 {
     }
 
     .service-img {
-        width: 64px;
+        width: 81px;
         height: auto;
     }
 
@@ -294,5 +292,9 @@ h2 {
 
     .contact-form {
         flex-direction: column-reverse;
+    }
+
+    .work-flow{
+        flex-direction: column;
     }
  }
