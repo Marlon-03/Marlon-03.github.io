@@ -6,6 +6,9 @@
 .row>* {
     padding: 0px!important;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 .navbar-collapse {
     flex-grow: 0!important;
