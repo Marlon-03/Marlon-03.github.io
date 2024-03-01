@@ -114,9 +114,17 @@ h2 {
 
 
 /* skills */
+.skill-box {
+    width: 100px;  /* adjust as needed */
+    height: 100px;  /* adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .skill-img {
-    width: 108px;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .shadow-html {
@@ -259,10 +267,10 @@ h2 {
         height: auto;
     }
 
-    .skill-img {
+    /* .skill-img {
         width: 64px;
         height: auto;
-    }
+    } */
 
     .logo-button {
         width: 30px;
@@ -300,8 +308,8 @@ h2 {
     .work-flow{
         flex-direction: column;
     }
-    .skill-img {
+    /* .skill-img {
         width: 50px;
         height: auto;
-    }
+    } */
  }
