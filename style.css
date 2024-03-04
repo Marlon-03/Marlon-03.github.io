@@ -311,4 +311,7 @@ h2 {
     .tab-content-link{
         flex-direction: column;
     }
+    .tab-pane{
+        flex-direction: column;
+    }
  }
