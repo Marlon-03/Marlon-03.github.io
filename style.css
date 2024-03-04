@@ -308,8 +308,7 @@ h2 {
     .work-flow{
         flex-direction: column;
     }
-    /* .skill-img {
-        width: 50px;
-        height: auto;
-    } */
+    .tab-content-link{
+        flex-direction: column;
+    }
  }
