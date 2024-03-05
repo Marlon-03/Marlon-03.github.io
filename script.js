@@ -1,6 +1,12 @@
-import Darkmode from 'darkmode-js';
-new Darkmode().showWidget();
 
+document.addEventListener('DOMContentLoaded', (event) => {
+    // Initialize Darkmode
+
+    const darkmode = new Darkmode();
+    
+    // Call the showWidget() function
+    darkmode.showWidget();
+});
 var element = document.getElementById('any');
 var text = ['Developer', 'Designer'];
 var index = 0;
