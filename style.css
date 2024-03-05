@@ -254,7 +254,15 @@ h2 {
 }
 
 /* Dark-mode */
-
+.darkmode-layer--button {
+    width: none!important;
+    height: none!important;
+}
+.darkmode-toggle {
+    width: 2.5rem!important;
+    height: 2.5rem!important;
+    z-index: 1000!important;
+}
 .darkmode--activated .navbar.bg-body-tertiary {
     background-color: #212529 !important;
     color: #FFF !important;
