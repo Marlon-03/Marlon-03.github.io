@@ -210,7 +210,34 @@ h2 {
 }
 
 /* work section */
+.work {
+    position: relative;
+}
 
+.view-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.work:hover .view-button {
+    opacity: 1;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease;
+}
+.work:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .demo-modal {
     width: 100%;
     height: 100%;
