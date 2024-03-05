@@ -1,4 +1,7 @@
+import Darkmode from 'darkmode-js';
 
+
+new Darkmode().showWidget();
 var element = document.getElementById('any');
 var text = ['Developer', 'Designer'];
 var index = 0;
