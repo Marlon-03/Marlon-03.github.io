@@ -1,4 +1,3 @@
-
 new Darkmode().showWidget();
 
 var element = document.getElementById('any');
