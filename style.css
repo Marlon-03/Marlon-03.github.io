@@ -254,14 +254,22 @@ h2 {
 }
 
 /* Dark-mode */
-.darkmode-layer--button {
-    width: none!important;
-    height: none!important;
-}
+
 .darkmode-toggle {
-    width: 2.5rem!important;
-    height: 2.5rem!important;
+    width: 2rem!important;
+    height: 2rem!important;
     z-index: 1000!important;
+}
+.darkmode-layer--button {
+    width: 2rem!important;
+    height: 2rem!important;
+}
+.darkmode-layer--simple {
+    width: 100%!important;
+    height: 100%!important;
+    top: 0;
+    left: 0;
+    transform: scale(1) !important;
 }
 .darkmode--activated .navbar.bg-body-tertiary {
     background-color: #212529 !important;
