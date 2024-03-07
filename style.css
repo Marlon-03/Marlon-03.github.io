@@ -6,8 +6,13 @@
 .row>* {
     padding: 0px!important;
 }
+
 html {
     scroll-behavior: smooth;
+}
+
+.invisible {
+    visibility: hidden;
 }
 
 .navbar-collapse {
@@ -23,9 +28,16 @@ html {
     font-size: 28px!important;
     font-weight: 600!important;
 }
-#home, #about, #services, #skills, #work, #contact {
+
+#home,
+#about,
+#services,
+#skills,
+#work,
+#contact {
     min-height: 100vh;
 }
+
 
 /* banner style */
 
@@ -85,6 +97,7 @@ h2 {
 
 
 /* about style */
+
 .tab-link {
     cursor: pointer;
     padding: 10px;
@@ -114,9 +127,12 @@ h2 {
 
 
 /* skills */
+
 .skill-box {
-    width: 100px;  /* adjust as needed */
-    height: 100px;  /* adjust as needed */
+    width: 100px;
+    /* adjust as needed */
+    height: 100px;
+    /* adjust as needed */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,10 +174,19 @@ h2 {
 .shadow-vue {
     box-shadow: 0 0 10px #4FC08D;
 }
-.shadow-html, .shadow-css, .shadow-js, .shadow-php, .shadow-wp, .shadow-react, .shadow-laravel, .shadow-vue {
-    padding: 10px; /* adjust as needed */
-    
+
+.shadow-html,
+.shadow-css,
+.shadow-js,
+.shadow-php,
+.shadow-wp,
+.shadow-react,
+.shadow-laravel,
+.shadow-vue {
+    padding: 10px;
+    /* adjust as needed */
 }
+
 .hover-scale {
     transition: transform 0.5s;
 }
@@ -169,6 +194,7 @@ h2 {
 .hover-scale:hover {
     transform: scale(1.05);
 }
+
 
 /* flip-box services */
 
@@ -210,14 +236,19 @@ h2 {
     transform: rotateY(180deg);
 }
 
+
 /* work section */
+
 .work {
     position: relative;
     max-height: 350px;
 }
+
 .work-img {
-    width: 100%; /* or any specific width */
-    height: 250px; /* or any specific height */
+    width: 100%;
+    /* or any specific width */
+    height: 250px;
+    /* or any specific height */
     overflow: hidden;
 }
 
@@ -239,6 +270,7 @@ h2 {
 .work:hover .view-button {
     opacity: 1;
 }
+
 .overlay {
     position: absolute;
     top: 0;
@@ -248,23 +280,29 @@ h2 {
     background-color: rgba(0, 0, 0, 0);
     transition: background-color 0.3s ease;
 }
+
 .work:hover .overlay {
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 .demo-modal {
     width: 100%;
     height: 100%;
-    object-fit: cover;}
+    object-fit: cover;
+}
+
 
 /*contact section */
-.form-control{
+
+.form-control {
     cursor: pointer;
 }
 
-.form-control:focus{
+.form-control:focus {
     border-color: #18D26E!important;
     box-shadow: 0 0 10px #18D26E!important;
 }
+
 
 /* Dark-mode */
 
@@ -273,10 +311,12 @@ h2 {
     height: 2rem!important;
     z-index: 1000!important;
 }
+
 .darkmode-layer--button {
     width: 2rem!important;
     height: 2rem!important;
 }
+
 .darkmode-layer--simple {
     width: 100%!important;
     height: 100%!important;
@@ -284,6 +324,7 @@ h2 {
     left: 0;
     transform: scale(1) !important;
 }
+
 .darkmode--activated .navbar.bg-body-tertiary {
     background-color: #212529 !important;
     color: #FFF !important;
@@ -292,49 +333,44 @@ h2 {
 .darkmode--activated .navbar.bg-body-tertiary .nav-link {
     color: #FFF !important;
 }
-.h3, h3{
+
+.h3,
+h3 {
     color: #F4B400!important;
 }
+
 @media (max-width: 768px) {
     .h1,
     h1 {
         font-size: 60px!important;
     }
-
     .h2,
     h2 {
         font-size: 40px!important;
     }
-
     .navbar-brand {
         font-size: 24px!important;
     }
-
     .nav-link {
         font-size: 20px!important;
     }
-
     .hero {
         width: 100%;
         height: auto;
         box-sizing: border-box;
     }
-
     .service-img {
         width: 81px;
         height: auto;
     }
-
     .logo-button {
         width: 30px;
         height: 30px;
         margin: 0 5px;
     }
-
     .logos {
         margin-top: 10px;
     }
-
     #home .btn.btn-light {
         font-size: 20px;
         font-weight: bold;
@@ -342,8 +378,7 @@ h2 {
         border-radius: 50px;
         padding: 10px 15px;
     }
-
-    .contents{
+    .contents {
         flex-direction: column;
     }
     .flip-inner {
@@ -351,33 +386,31 @@ h2 {
         height: 200px;
     }
     .work-img {
-        width: 100%; /* or any specific width */
-        height: 200px; /* or any specific height */
+        width: 100%;
+        /* or any specific width */
+        height: 200px;
+        /* or any specific height */
         overflow: hidden;
     }
-
-    .col-md-3{
-        width:30%!important;
+    .col-md-3 {
+        width: 30%!important;
     }
-
 }
 
 @media (max-width: 576px) {
-    .services-sm{
+    .services-sm {
         flex-direction: column;
     }
-
     .contact-form {
         flex-direction: column-reverse;
     }
-
-    .work-flow{
+    .work-flow {
         flex-direction: column;
     }
-    .tab-content-link{
+    .tab-content-link {
         flex-direction: column;
     }
-    .tab-pane{
+    .tab-pane {
         flex-direction: column;
     }
- }
+}
