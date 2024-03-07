@@ -292,7 +292,9 @@ h2 {
 .darkmode--activated .navbar.bg-body-tertiary .nav-link {
     color: #FFF !important;
 }
-
+.h3, h3{
+    color: #F4B400!important;
+}
 @media (max-width: 768px) {
     .h1,
     h1 {
@@ -352,6 +354,10 @@ h2 {
         width: 100%; /* or any specific width */
         height: 200px; /* or any specific height */
         overflow: hidden;
+    }
+
+    .col-md-3{
+        width:30%!important;
     }
 
 }
