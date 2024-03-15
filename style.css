@@ -125,14 +125,21 @@ h2 {
     height: auto;
 }
 
+ul.custom-dash {
+    list-style-type: none; 
+    padding-left: 0; 
+  }
+  
+  ul.custom-dash li::before {
+    content: "- "; 
+    padding-right: 5px; 
+  }
 
 /* skills */
 
 .skill-box {
     width: 100px;
-    /* adjust as needed */
     height: 100px;
-    /* adjust as needed */
     display: flex;
     justify-content: center;
     align-items: center;
