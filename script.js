@@ -53,6 +53,6 @@ function changeTab(index) {
     links[index].classList.add('active');
 }
 
+// Initialize the first tab
 changeTab(0);
-
 

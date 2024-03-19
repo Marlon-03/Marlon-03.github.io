@@ -97,7 +97,9 @@ h2 {
 
 
 /* about style */
-
+.tab-content .tab-pane {
+    display: none;
+}
 .tab-link {
     cursor: pointer;
     padding: 10px;
@@ -113,7 +115,6 @@ h2 {
 }
 
 .tab-content .tab-pane.active {
-    display: block;
     display: flex;
     justify-content: space-between;
     margin: 10px;
