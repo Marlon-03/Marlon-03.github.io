@@ -97,9 +97,11 @@ h2 {
 
 
 /* about style */
+
 .tab-content .tab-pane {
     display: none;
 }
+
 .tab-link {
     cursor: pointer;
     padding: 10px;
@@ -122,19 +124,20 @@ h2 {
 }
 
 .tab-content .tab-pane .left-tab-pane .about-image {
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
 ul.custom-dash {
-    list-style-type: none; 
-    padding-left: 0; 
-  }
-  
-  ul.custom-dash li::before {
-    content: "- "; 
-    padding-right: 5px; 
-  }
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.custom-dash li::before {
+    content: "- ";
+    padding-right: 5px;
+}
+
 
 /* skills */
 
@@ -405,7 +408,7 @@ h3 {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
     .services-sm {
         flex-direction: column;
     }
@@ -420,5 +423,9 @@ h3 {
     }
     .tab-pane {
         flex-direction: column;
+    }
+    .tab-content .tab-pane.active {
+        margin: 0px;
+        gap: 20px;
     }
 }
