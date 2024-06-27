@@ -19,6 +19,10 @@ html {
     flex-grow: 0!important;
 }
 
+.navbar-toggler:focus{
+    box-shadow: none!important;
+}
+
 .navbar-brand {
     font-size: 32px!important;
     font-weight: bold!important;
