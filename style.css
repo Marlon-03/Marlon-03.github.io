@@ -81,7 +81,7 @@ h2 {
     margin-top: 20px;
 }
 
-#home .btn.btn-light {
+#home .btn.btn-success {
     font-size: 30px;
     font-weight: bold;
     margin-top: 20px;
@@ -257,9 +257,7 @@ ul.custom-dash li::before {
 
 .work-img {
     width: 100%;
-    /* or any specific width */
     height: 250px;
-    /* or any specific height */
     overflow: hidden;
 }
 
