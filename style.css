@@ -1,3 +1,8 @@
+.custom-col-md-3-5 {
+    flex: 0 0 29.1667%; /* 3.5 columns out of 12 */
+    max-width: 29.1667%;
+  }
+
 * {
     box-sizing: border-box;
     margin: 0px;
