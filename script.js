@@ -56,6 +56,8 @@ function changeTab(index) {
 // Initialize the first tab
 changeTab(0);
 
+
+
 // Get the button
 let mybutton = document.getElementById("scrollToTopBtn");
 
@@ -66,16 +68,27 @@ window.onscroll = function() {
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+    mybutton.classList.add("show");
   } else {
-    mybutton.style.display = "none";
+    mybutton.classList.remove("show");
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+// When the user clicks on the button, animate it flying to the top and scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+  mybutton.classList.add("fly");
+
+  // Smoothly scroll to the top of the document
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+
+  // Reset the button position and hide after the scroll is complete
+  setTimeout(() => {
+    mybutton.classList.remove("fly"); // Reset the button position
+    mybutton.classList.remove("show"); // Hide the button
+  }, 1000); // Match the duration of the flyToTop animation
 }
 
 
