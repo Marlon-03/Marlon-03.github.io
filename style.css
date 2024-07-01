@@ -454,9 +454,9 @@ h3 {
         /* or any specific height */
         overflow: hidden;
     }
-    .col-md-3 {
+    /* .col-md-3 {
         width: 30%!important;
-    }
+    } */
 }
 
 @media (max-width: 767px) {
@@ -478,5 +478,8 @@ h3 {
     .tab-content .tab-pane.active {
         margin: 0px;
         gap: 20px;
+    }
+    #services{
+        justify-content: center;
     }
 }
