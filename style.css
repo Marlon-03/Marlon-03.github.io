@@ -315,8 +315,8 @@ ul.custom-dash li::before {
 #scrollToTopBtn {
     display: none;
     position: fixed;
-    bottom: 20px;
-    right: 30px;
+    bottom: 30px!important;
+    right: 5px;
     z-index: 99;
     border: none;
     background-color: transparent;
@@ -380,6 +380,15 @@ ul.custom-dash li::before {
     top: 0;
     left: 0;
     transform: scale(1) !important;
+}
+
+.darkmode-layer--button {
+    bottom: 40px!important;
+    left: 15px!important;
+}
+.darkmode-toggle {
+    bottom: 40px!important;
+    left: 15px!important;
 }
 
 .darkmode--activated .navbar.bg-body-tertiary {
@@ -475,6 +484,9 @@ h3 {
         gap: 20px;
     }
     #services{
+        justify-content: center;
+    }
+    #work{
         justify-content: center;
     }
 }
